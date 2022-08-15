@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.097155">
+    <testcase classname="Login Page" name="Login in to the application" time="0.097155">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefinations.BanficoLogin.go_to_login_page(BanficoLogin.java:19)&#13;&#10;&#9;at ✽.Given go to login page(C:/Tushar/Cucumber_Learning/CucumberProject/Features/banficologin.feature:4)&#13;&#10;"><![CDATA[Given go to login page......................................................failed
+And select SignIn menu button...............................................skipped
+When Enter username and password............................................skipped
+And Click on Sign in button.................................................skipped
+Then User navigate to welcome page..........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinations.BanficoLogin.go_to_login_page(BanficoLogin.java:19)
+	at ✽.Given go to login page(C:/Tushar/Cucumber_Learning/CucumberProject/Features/banficologin.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login in to the application",
+        "description": "",
+        "id": "login-page;login-in-to-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97155000,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinations.BanficoLogin.go_to_login_page(BanficoLogin.java:19)\r\n\tat ✽.Given go to login page(C:/Tushar/Cucumber_Learning/CucumberProject/Features/banficologin.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "go to login page",
+            "match": {
+              "location": "BanficoLogin.go_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "select SignIn menu button",
+            "match": {
+              "location": "BanficoLogin.select_SignIn_menu_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter username and password",
+            "match": {
+              "location": "BanficoLogin.enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on Sign in button",
+            "match": {
+              "location": "BanficoLogin.click_on_Sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User navigate to welcome page",
+            "match": {
+              "location": "BanficoLogin.user_navigate_to_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "C:/Tushar/Cucumber_Learning/CucumberProject/Features/banficologin.feature"
+  }
+]
